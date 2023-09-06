@@ -1,0 +1,13 @@
+body {
+    background-color: seashell;
+  }
+  h1 {
+    color: chocolate;
+    font-family:"Courier New", Arial, Helvetica ;
+    font-size: 30px ;
+  }
+  p {
+    color: chocolate;
+    font-family:"Courier New", Arial, Helvetica ;
+    font-size: 20px ;
+  }

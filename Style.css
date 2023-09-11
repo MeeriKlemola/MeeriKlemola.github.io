@@ -16,3 +16,17 @@ body {
     font-family:"Courier New", Arial, Helvetica ;
     font-size: 20px ;
   }
+  a:link {
+    color: chocolate;
+    text-decoration: none;
+    font-family:"Courier New", Arial, Helvetica ; 
+  }
+  a:visited {
+    color: chocolate;
+    text-decoration: none;
+    font-family:"Courier New", Arial, Helvetica ;
+  }
+a:hover {
+  color: red;
+  font-family:"Courier New", Arial, Helvetica ;
+}

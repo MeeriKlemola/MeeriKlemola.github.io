@@ -9,7 +9,7 @@ body {
   h2 {
     color: chocolate;
     font-family:"Courier New", Arial, Helvetica ;
-    font-size: 25px ;
+    font-size: 20px ;
   }
   p {
     color: chocolate;
@@ -20,6 +20,7 @@ body {
     color: chocolate;
     text-decoration: none;
     font-family:"Courier New", Arial, Helvetica ; 
+    padding-right: 10px ;
   }
   a:visited {
     color: chocolate;
@@ -30,3 +31,4 @@ a:hover {
   color: red;
   font-family:"Courier New", Arial, Helvetica ;
 }
+

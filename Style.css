@@ -4,18 +4,26 @@ body {
   h1 {
     color: chocolate;
     font-family:"Courier New", Arial, Helvetica ;
-    font-size: 35px ;
+    font-size: 30px ;
     padding: 5px;
   }
   h2 {
     color: chocolate;
     font-family:"Courier New", Arial, Helvetica ;
-    font-size: 20px ;
+    font-size: 23px ;
+    padding: 5px;
   }
+  h3 {
+    color: chocolate;
+    font-family:"Courier New", Arial, Helvetica ;
+    font-size: 18px;
+    padding: 5px;
+
+  } 
   p {
     color: chocolate;
     font-family:"Courier New", Arial, Helvetica ;
-    font-size: 20px ;
+    font-size: 15px ;
     padding: 5px;
     line-height: 1.2;
   }

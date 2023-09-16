@@ -23,7 +23,7 @@ body {
   p {
     color: chocolate;
     font-family:"Courier New", Arial, Helvetica ;
-    font-size: 15px ;
+    font-size: 16px ;
     padding: 5px;
     line-height: 1.2;
   }
@@ -43,3 +43,9 @@ a:hover {
   font-family:"Courier New", Arial, Helvetica ;
 }
 
+table, th, td {
+  color: chocolate;
+  width: 80%;
+  font-family:"Courier New", Arial, Helvetica ;
+  border:1px solid chocolate;
+}

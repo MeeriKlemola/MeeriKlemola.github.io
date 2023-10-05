@@ -69,10 +69,11 @@ table, th, td {
 .button-52 {
   font-size: 16px;
   font-weight: 200;
+  color: #93032e;
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
-  border: 1px solid black;
+  border: 1px solid #93032e;
   cursor: pointer;
   position: relative;
   background-color: rgba(0, 0, 0, 0);
@@ -107,3 +108,5 @@ table, th, td {
 img, h1 {
   display: inline-block;
 }
+
+

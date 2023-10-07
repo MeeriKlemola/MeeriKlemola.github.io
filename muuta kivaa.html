@@ -10,6 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .rivi {
+        display: flex;
+      }
+      .sarake {
+        flex: 50%;
+        padding: 10px;
+      }
+      </style>
  </head> 
 <body> 
 <header>
@@ -17,14 +29,17 @@
     <h1 style="margin-bottom: 0px;">Muuta kivaa</h1>
 </header>
  
-<h2 style="margin-top: 0px;">Suosikki lankakauppani:</h2>
+<h2 style="margin-top: 0px; margin-bottom: 0px;">Suosikki lankakauppani:</h2>
+
+<div class="rivi">
+  <div class="sarake">
     <h3>Menita</h3>
       <p>Menita on sympaattinen pikku lankakauppa, josta olen ensimmäiset lankakeräni aikoinani ostanut. 
       Tykkäsin erityisesti Helsingin Punavuoressa sijaitsevasta liikkeestä ja siellä usein kävinkin. 
       Valitettavasti se on nykyisin suljettu. 
       Menitalla on hyvä valikoima edullisia lankoja tiukalle budjetille. 
       Löytyy toki myös parempiakin lankojakin jonkun verran.</p>
-      <a href="https://www.menita.fi" target="_blank" rel="noopener noreferrer">Menitan verkkokauppa</a>
+      <a id="maanvaiva" href="https://www.menita.fi" target="_blank" rel="noopener noreferrer">Menitan verkkokauppa</a>
       <h4>Espoon putiikki</h4>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127125.41415416835!2d24.381242286718745!3d60.1420825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df4b55982a44d%3A0xde7a4cd1e0a461be!2sMenita%20Espoo!5e0!3m2!1sfi!2sfi!4v1696450990610!5m2!1sfi!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -35,7 +50,9 @@
       <a href="https://www.lankamaailma.fi" target="_blank" rel="noopener noreferrer">Lankamaailman verkkokauppa</a>
       <h4>Lankamaailman Helsingin putiikki</h4>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7924.519034100886!2d24.953237615218743!3d60.22822923874672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209b37c407361%3A0xe7a0a87df04087eb!2sLankamaailma%20Helsinki!5e0!3m2!1sfi!2sfi!4v1696450838540!5m2!1sfi!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
-
+  </div>
+  <div class="sarake">
+    <br>
     <h3>Snurre</h3>
       <p>Snurre on lankakauppojen karkkikauppa, oikea silmän ilo. 
       Valikoima on laadukas ja erikoinen, täältä ei löydä Novitan perus lankoja ollenkaan. 
@@ -43,7 +60,8 @@
       <a href="https://www.snurre.fi" target="_blank" rel="noopener noreferrer">Snurren verkkokauppa</a>
       <h4>Snurren putiikki</h4>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.7492157108616!2d24.93429937703659!3d60.168330443582605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bb54bf5005d%3A0xbc7539dc5549f0e7!2sLankakauppa%20Snurre!5e0!3m2!1sfi!2sfi!4v1696450927205!5m2!1sfi!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
-<br>
+    </div>
+</div>
 
  <h2>Parhaat ohjesivustot:</h2>
     <h3>Novita</h3>

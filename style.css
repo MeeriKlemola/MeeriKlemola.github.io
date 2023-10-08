@@ -122,9 +122,6 @@ img, h1 {
   }
   p{font-size: 16px;
   }
-  .navigation {
-    font-size: 19px;
-  }
 }
 
 @media only screen and (min-width: 421px) and
@@ -138,9 +135,6 @@ img, h1 {
   h4 {font-size: 16px;
   }
   p{font-size: 16px;
-  }
-  .navigation {
-    font-size: 22px;
   }
 }
 
@@ -166,8 +160,5 @@ img, h1 {
     flex: 50%;
     padding: 10px;
     margin-top: 0px;
-  }
-  .navigation {
-    font-size: 24px;
   }
 }
